@@ -1,5 +1,5 @@
-#ifndef APDS9306_I2C_H_
-#define APDS9306_I2C_H_
+#ifndef SENSOR_APDS9306_I2C_H
+#define SENSOR_APDS9306_I2C_H
 
 #include "stdint.h"
 

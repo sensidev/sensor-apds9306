@@ -1,5 +1,5 @@
-#ifndef APDS9306_ERRORS_H_
-#define APDS9306_ERRORS_H_
+#ifndef APDS9306_ERRORS_H
+#define APDS9306_ERRORS_H
 
 #define APDS9306_OK 0
 
@@ -7,5 +7,4 @@
 
 #define APDS9306_I2C_FAIL_ERROR -10
 
-
-#endif /* APDS9306_ERRORS_H_ */
+#endif
