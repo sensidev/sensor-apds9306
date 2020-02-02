@@ -104,7 +104,7 @@ int8_t apds9306_get_raw_data_wait(uint32_t *data) {
     uint16_t delay = apds9306_get_resolution_time_for(apds9306_als_meas_rate_value);
     apds9306_i2c_delay_ms(delay);
 
-    while (!apds9306_is_data_ready() && attempts < APDS9306_CHECK_DATA_READY_ATTEMPTS) {
+    while (!apds9306_is_data_ready() && attempts < APDS9306_READ_WAIT_FOR_REG_ATTEMPTS) {
         apds9306_i2c_delay_ms(20);
         attempts++;
     }
